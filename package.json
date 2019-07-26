@@ -1,0 +1,39 @@
+{
+  "name": "demo-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "buefy": "^0.7.10",
+    "core-js": "^2.6.5",
+    "hooper": "^0.3.2",
+    "hopper": "^0.2.0",
+    "mdbvue": "^5.7.0",
+    "vue": "^2.6.10",
+    "vue-carousel": "^0.18.0",
+    "vue-carousel-3d": "^0.2.0",
+    "vue-displacement-slideshow": "^2.0.2",
+    "vue-flux": "^5.1.9",
+    "vue-router": "^3.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
